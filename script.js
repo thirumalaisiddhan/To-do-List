@@ -27,7 +27,7 @@ function loadTasks() {
             <span>${task.text}</span>
             <div>
                 <button onclick="editTask(${task.id})">Edit</button>
-                <button onclick="deleteTask(${task.id})">Delete</button>
+                <button onclick="deleteTask(${task.id})" id="del">Delete</button>
             </div>
         `;
         taskList.appendChild(li);
